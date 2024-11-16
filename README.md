@@ -42,15 +42,20 @@ This project aims to provide book recommendations by analyzing user preferences 
 ## 📂 **Project Structure**
 
 ```
-├── 📂 artifacts/             # Pre-trained model and serialized data
- │    ├── model.pkl            # Trained KNN model
- │    ├── books_name.pkl       # List of book titles
- │    ├── final_rating.pkl     # Processed dataset with ratings and metadata
- │    └── book_pivot.pkl       # User-item pivot table
- ├── 📄 app.py                 # Main Streamlit application
- ├── 📄 requirements.txt       # List of required Python libraries
- ├── 📄 README.md              # Project documentation
- └── 📂 .gitignore             # Specifies files to exclude from version control
+📦 book-recommendation-system/  
+ ├── 📂 artifacts/              # Pre-trained model and serialized data  
+ │    ├── model.pkl             # Trained KNN model  
+ │    ├── books_name.pkl        # List of book titles  
+ │    ├── final_rating.pkl      # Processed dataset with ratings and metadata  
+ │    └── book_pivot.pkl        # User-item pivot table  
+ ├── 📂 data/                   # Raw data and auxiliary files  
+ │    └── books_metadata.csv    # Dataset containing book metadata and ratings  
+ ├── 📄 Recommendation system.ipynb  # Jupyter Notebook for experimentation and testing  
+ ├── 📄 app.py                  # Main Streamlit application  
+ ├── 📄 requirements.txt        # List of required Python libraries  
+ ├── 📄 README.md               # Project documentation  
+ ├── 📂 .gitignore              # Specifies files to exclude from version control  
+
 ```
 
 ---
